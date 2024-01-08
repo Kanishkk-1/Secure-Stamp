@@ -1,9 +1,9 @@
 "use client"
 // import LoginNavbar from '../Components/Loginavbar'
 import React from 'react'
-import Image from 'next/image'
+// import Image from 'next/image'
 import Link from 'next/link'
-import signImage from '../../public/images/signup.png'
+// import signImage from '../../public/images/signup.png'
 import  {useState}  from 'react';
 import { useRouter } from "next/navigation";
 import {signIn,useSession} from 'next-auth/react'
@@ -25,7 +25,7 @@ export default function signup() {
       {/* <LoginNavbar/> */}
     <div className="flex flex-col items-center md:flex-row md:h-screen">
       <div className="flex items-center justify-center w-full md:w-1/2">
-        <Image src={signImage} alt="Login Image" width={410} height={410} />
+           <img src={"/images/signup.png"} className="p-5" alt="Example"  width={450} height={450} />
       </div>
       <div className="flex flex-col items-center justify-center w-full md:w-1/4">
         <div className="w-full max-w-md space-y-8">
