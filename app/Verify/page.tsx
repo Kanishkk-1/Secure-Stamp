@@ -25,7 +25,8 @@ export default function Verify() {
       <label htmlFor="file">
            <Image
            alt="Upload"
-            src={UploadBlock}>
+            src={UploadBlock}
+            height={400}>
             </Image>
       </label>
 
